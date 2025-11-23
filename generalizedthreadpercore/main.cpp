@@ -8,7 +8,7 @@ void worker() {
   for (size_t i = 0; i < 1'000'000'000; i++) {
     total += i;
   }
-  std::cout << total << std::endl;
+  std::cout << zstotal << std::endl;
 }
 
 int main() {
